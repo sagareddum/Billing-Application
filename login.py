@@ -4,7 +4,7 @@ import customtkinter as ctk
 from PIL import Image
 import mysql.connector
 
-mydb = mysql.connector.connect(host='localhost', password='SAGAR@pass1', user='root')
+mydb = mysql.connector.connect(host='localhost', password='SAGAR@pass1', user='root') #Connect your own database
 mycur = mydb.cursor()
 mycur.execute('use Store')
 
